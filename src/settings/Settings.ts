@@ -19,7 +19,6 @@ class BakaEngineBotSettings {
     ]
 
     public readonly prefix = c.get<string>('discord.prefix')
-    public readonly usersWithMinecraftRights = c.get<string[]>('discord.minecraftRights')
 
 }
 
