@@ -1,0 +1,31 @@
+{
+  "name": "baka-engine-bot",
+  "version": "0.0.1",
+  "description": "Just a bot with a random collection of features.",
+  "main": "./out/index.js",
+  "scripts": {
+    "start": "tsc && node .",
+    "build": "tsc"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "bakuenjin"
+  ],
+  "author": "Julian Zameit (Bakuenjin#0001)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/config": "0.0.35",
+    "@types/ip": "^1.1.0",
+    "@types/node": "^12.12.3",
+    "@types/request": "^2.48.3",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "config": "^3.2.4",
+    "discord.js": "^11.5.1",
+    "ip": "^1.1.5",
+    "string-argv": "^0.3.1",
+    "unofficial-jisho-api": "^2.0.5"
+  }
+}
